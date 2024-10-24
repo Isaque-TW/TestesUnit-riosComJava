@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 public class SimpleMathTest {
 
     @Test
-    void testSum() {
+    void testSum_When_SixDotTwoIsAddedByTwo_ShouldReturnEightDotTwo() {
         SimpleMath math = new SimpleMath(); // Definindo a instancia.
         double firstNumber = 6.2D;
         double secondNumber = 2D;

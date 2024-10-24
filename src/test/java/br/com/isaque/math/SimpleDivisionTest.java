@@ -7,7 +7,8 @@ import static org.junit.jupiter.api.Assertions.*;
 public class SimpleDivisionTest {
 
     @Test
-    void testDivision() {
+   // test[System Under Test]_[Condition or State Change]_[Expected Result]
+    void testDivision_When_FirstNumberIsDividedByZero_ShouldThrowArithmeticException() {
         SimpleMath math = new SimpleMath();
         double firstNumber = 6.0D;
         double secondNumber = 2D;
