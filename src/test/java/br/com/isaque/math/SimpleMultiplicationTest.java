@@ -1,5 +1,6 @@
 package br.com.isaque.math;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -7,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class SimpleMultiplicationTest {
 
     @Test
+    @DisplayName("Test 6.2 * 2 = 12.4")
     void testMultiplication(){
         SimpleMath math = new SimpleMath();
         double firstNumber = 6.2D;

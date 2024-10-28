@@ -1,5 +1,6 @@
 package br.com.isaque.math;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -7,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class SimpleSubtractionTest {
 
     @Test
+    @DisplayName("Test 6.2 - 2 = 4.2")
     void testSubtraction() {
         SimpleMath math = new SimpleMath(); // Definindo a instancia.
         double firstNumber = 6.2D;

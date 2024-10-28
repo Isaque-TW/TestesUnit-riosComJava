@@ -1,5 +1,6 @@
 package br.com.isaque.math;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -7,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class SimpleSquareRootTest {
 
     @Test
+    @DisplayName("Test Square Root of 81 = 9")
     void testSquareRoot() {
         SimpleMath math = new SimpleMath(); // Definindo a instancia.
         double number = 81D;
