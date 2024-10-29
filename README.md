@@ -67,9 +67,9 @@ ________________________________________________________________________________
 
 #### Cenário 1: Itens devolvidos para reembolso devem ser adicionados ao estoque.
 
-- Given: Um cliente comprou um suéter preto e há três no estoque.
-- When: Ele devolve o suéter.
-- Then: O estoque deve ter quatro suéteres pretos.
+- #### Given: Um cliente comprou um suéter preto e há três no estoque.
+- #### When: Ele devolve o suéter.
+- #### Then: O estoque deve ter quatro suéteres pretos.
 
 ### Conclusão
 
