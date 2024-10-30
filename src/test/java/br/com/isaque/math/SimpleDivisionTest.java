@@ -11,6 +11,8 @@ public class SimpleDivisionTest {
     @Test
     @DisplayName("Test 6.2 / 2 = 3.1")
     void testDivision() {
+        System.out.println("Test 6.2 / 2 = 3.1");
+
         SimpleMath math = new SimpleMath();
         double firstName = 6.2D;
         double secondNumber = 2D;

@@ -10,6 +10,8 @@ public class SimpleSubtractionTest {
     @Test
     @DisplayName("Test 6.2 - 2 = 4.2")
     void testSubtraction() {
+        System.out.println("Test 6.2 - 2 = 4.2");
+
         SimpleMath math = new SimpleMath(); // Definindo a instancia.
         double firstNumber = 6.2D;
         double secondNumber = 2D;

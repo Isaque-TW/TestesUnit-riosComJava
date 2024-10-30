@@ -10,6 +10,8 @@ public class SimpleMultiplicationTest {
     @Test
     @DisplayName("Test 6.2 * 2 = 12.4")
     void testMultiplication(){
+        System.out.println("Test 6.2 * 2 = 12.4");
+
         SimpleMath math = new SimpleMath();
         double firstNumber = 6.2D;
         double secondNumber = 2D;

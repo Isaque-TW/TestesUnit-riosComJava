@@ -1,8 +1,7 @@
 package br.com.isaque.math;
 
 
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
@@ -11,9 +10,26 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 @DisplayName("Test Math Operations in SimpleMath Class")
 public class SimpleMathTest {
 
+
+    @BeforeAll
+    static void setup() {
+        System.out.println("Running @BeforeAll method!");
+    }
+
+    @AfterAll
+    static void cleanup() {
+        System.out.println("Running @AfterAll method!");
+    }
+
+    @BeforeEach
+     void beforeEachMethod() {
+        System.out.println("Running @AfterAll method!");
+    }
+
     @Test
     @DisplayName("Test 6.2 + 2 = 8.2")
     void testSum_When_SixDotTwoIsAddedByTwo_ShouldReturnEightDotTwo() {
+        System.out.println("Test 6.2 + 2 = 8.2");
         // Given / Arrange
         SimpleMath math = new SimpleMath(); // Instancia o SimpleMath e define as variaveis
         double firstNumber = 6.2D;

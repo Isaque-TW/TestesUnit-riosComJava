@@ -10,6 +10,8 @@ public class SimpleMeanTest {
     @Test
     @DisplayName("Test (6.2 + 2) / 2 = 4.1")
     void testMean() {
+        System.out.println("Test (6.2 + 2) / 2 = 4.1");
+
         SimpleMath math = new SimpleMath();
         double firstNumber = 6.2D;
         double secondNumber = 2D;

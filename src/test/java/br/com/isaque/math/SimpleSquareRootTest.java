@@ -10,6 +10,8 @@ public class SimpleSquareRootTest {
     @Test
     @DisplayName("Test Square Root of 81 = 9")
     void testSquareRoot() {
+        System.out.println("Test Square Root of 81 = 9");
+
         SimpleMath math = new SimpleMath(); // Definindo a instancia.
         double number = 81D;
         double expected = 9D;
