@@ -1,4 +1,4 @@
-# Automated Tests with Java
+# Testes Automatizados com Java
 
 ## Introdução
 
